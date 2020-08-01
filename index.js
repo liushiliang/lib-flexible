@@ -1,5 +1,5 @@
 (function flexible (window, document) {
-  var docEl = document.documentElement
+  var docEl = document.documentElement //获取documentElement对象
   var dpr = window.devicePixelRatio || 1
 
   // adjust body font size
